@@ -1,0 +1,120 @@
+.vertical_line{
+    border-left: 1px solid #f2f2f2;
+    height: 85px;
+}
+.My_cart_btn{
+    background-color: rgb(12, 131, 31) !important;
+    border-radius: 7px !important;
+    color: white;
+}
+.My_search{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding-inline: 10px;
+    border: 1px solid #f2f2f2;
+
+}
+.My_search>input{
+    border: none;
+    width: 40vw;
+    height: 50px;
+    background: transparent;
+
+}
+.delivery{
+    font-size: 13px;
+
+}
+.delivery>h3{
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+
+}
+.section2{
+    width: 96vw;
+    margin: auto;
+
+}
+.list{
+    white-space: nowrap;
+    overflow-x:scroll ;
+
+    
+}
+.list::-webkit-scrollbar{
+    display: none;
+    
+}
+.list>img{
+    display: inline-block;
+    margin: 10px;
+}
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-inline: 4vw; */
+    margin: auto;
+
+}
+.mycard{
+    position: relative ;
+    width: 180px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+    margin-inline: 8px;
+    display: inline-block !important;
+
+}
+.section4{
+    width: 94vw;
+    margin: auto;
+}
+.mycard>img{
+    margin: auto;
+    display: inline-block;
+    /* position: absolute; */
+
+}
+.weight{
+    font-size: 13px;
+    color: #666666;
+    margin-top: 0px;
+}
+.name>p{
+    display: flex;
+    justify-content: center;
+}
+.image1{
+    margin: auto;
+
+}
+.last{
+    overflow-x:scroll ;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:480px){
+    .section1{
+        display: none !important;
+    }
+    nav{
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    .vertical_line{
+        display: none !important;
+    }
+    nav{
+        padding: 20px;
+        padding-bottom: 20px;
+        position: static;
+    }
+
+}
